@@ -5,7 +5,7 @@
       "input": {
         "audio": "https://github.com/runpod-workers/sample-inputs/raw/main/audio/gettysburg.wav",
         "model": "turbo",
-        "transcription": "plain text",
+        "transcription": "plain_text",
         "translate": false,
         "temperature": 0,
         "best_of": 5,
@@ -17,11 +17,11 @@
         "logprob_threshold": -1,
         "no_speech_threshold": 0.6
       },
-      "timeout": 10000
+      "timeout": 60000
     }
   ],
   "config": {
-    "gpuTypeId": "NVIDIA GeForce RTX 4090",
+    "gpuTypeId": "NVIDIA L4",
     "gpuCount": 1,
     "allowedCudaVersions": [
       "12.7",
